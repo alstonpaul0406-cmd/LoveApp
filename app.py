@@ -8,7 +8,7 @@ def home():
     <!DOCTYPE html>
     <html>
     <head>
-        <title>For My Darling Nimisha 💕</title>
+        <title>For My Darling 💕</title>
         <style>
             body {
                 background: linear-gradient(to right, #ffe6f0, #fff0f5);
@@ -22,26 +22,26 @@ def home():
                 margin-bottom: 0.2em;
                 animation: pulse 2s infinite;
             }
-            p {
-                font-size: 1.5em;
-                margin: 0.5em 0;
+            img {
+                margin-top: 20px;
+                border-radius: 15px;
+                box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+                max-width: 80%;
+                height: auto;
             }
             @keyframes pulse {
                 0% { transform: scale(1); }
                 50% { transform: scale(1.05); }
                 100% { transform: scale(1); }
             }
-            .emoji {
-                font-size: 2em;
-                margin-top: 1em;
-            }
         </style>
     </head>
     <body>
-        <h1>💖 Love You Darling Nimisha💖</h1>
+        <h1>💖 Love You Darling Nimisha 💖</h1>
         <p>🌹 You are the sunshine in my life 🌹</p>
         <p>💌 This little app is just for you 💌</p>
-        <div class="emoji">🥰😘💞</div>
+        <img src="/static/nimisha.jpg" alt="Our Special Photo">
+        <div class="emoji">🥰 😘 💞</div>
     </body>
     </html>
     '''
